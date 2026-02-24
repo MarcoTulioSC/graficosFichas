@@ -5,7 +5,7 @@ import plotly.express as px
 ID_PLANILHA = "COLE_AQUI_SEU_ID"
 GID = "0"
 
-URL = f"https://docs.google.com/spreadsheets/d/{ID_PLANILHA}/export?format=csv&gid={GID}"
+URL = "1jXghWB8UgKcm6U72-doguM4auaDSQhvN7xt2QOTnc0w"
 
 st.set_page_config(layout="wide")
 st.title("📊 Dashboard de Análise")

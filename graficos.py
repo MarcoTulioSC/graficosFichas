@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-ID_PLANILHA = "COLE_AQUI_SEU_ID"
+ID_PLANILHA = "1jXghWB8UgKcm6U72-doguM4auaDSQhvN7xt2QOTnc0w"
 GID = "0"
 
-URL = "1jXghWB8UgKcm6U72-doguM4auaDSQhvN7xt2QOTnc0w"
+URL = f"https://docs.google.com/spreadsheets/d/{ID_PLANILHA}/export?format=csv&gid={GID}"
 
 st.set_page_config(layout="wide")
 st.title("📊 Dashboard de Análise")
